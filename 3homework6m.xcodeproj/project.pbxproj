@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9A9731292A4AFC6400FDFBC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731282A4AFC6400FDFBC1 /* main.swift */; };
+		9A9731302A4AFC7700FDFBC1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A97312F2A4AFC7700FDFBC1 /* Account.swift */; };
+		9A9731322A4AFC8300FDFBC1 /* CashPaymentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731312A4AFC8300FDFBC1 /* CashPaymentStrategy.swift */; };
+		9A9731342A4AFC9100FDFBC1 /* CardPaymentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731332A4AFC9100FDFBC1 /* CardPaymentStrategy.swift */; };
+		9A9731362A4AFC9700FDFBC1 /* PaymentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731352A4AFC9700FDFBC1 /* PaymentStrategy.swift */; };
+		9A9731382A4AFCA500FDFBC1 /* CurrencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731372A4AFCA500FDFBC1 /* CurrencyManager.swift */; };
+		9A97313A2A4AFCAA00FDFBC1 /* Cashbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9731392A4AFCAA00FDFBC1 /* Cashbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		9A9731252A4AFC6400FDFBC1 /* 3homework6m */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3homework6m; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9731282A4AFC6400FDFBC1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9A97312F2A4AFC7700FDFBC1 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9A9731312A4AFC8300FDFBC1 /* CashPaymentStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashPaymentStrategy.swift; sourceTree = "<group>"; };
+		9A9731332A4AFC9100FDFBC1 /* CardPaymentStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentStrategy.swift; sourceTree = "<group>"; };
+		9A9731352A4AFC9700FDFBC1 /* PaymentStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStrategy.swift; sourceTree = "<group>"; };
+		9A9731372A4AFCA500FDFBC1 /* CurrencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyManager.swift; sourceTree = "<group>"; };
+		9A9731392A4AFCAA00FDFBC1 /* Cashbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				9A9731282A4AFC6400FDFBC1 /* main.swift */,
+				9A97312F2A4AFC7700FDFBC1 /* Account.swift */,
+				9A9731312A4AFC8300FDFBC1 /* CashPaymentStrategy.swift */,
+				9A9731332A4AFC9100FDFBC1 /* CardPaymentStrategy.swift */,
+				9A9731352A4AFC9700FDFBC1 /* PaymentStrategy.swift */,
+				9A9731372A4AFCA500FDFBC1 /* CurrencyManager.swift */,
+				9A9731392A4AFCAA00FDFBC1 /* Cashbox.swift */,
 			);
 			path = 3homework6m;
 			sourceTree = "<group>";
@@ -121,6 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9731292A4AFC6400FDFBC1 /* main.swift in Sources */,
+				9A9731322A4AFC8300FDFBC1 /* CashPaymentStrategy.swift in Sources */,
+				9A9731302A4AFC7700FDFBC1 /* Account.swift in Sources */,
+				9A9731362A4AFC9700FDFBC1 /* PaymentStrategy.swift in Sources */,
+				9A9731382A4AFCA500FDFBC1 /* CurrencyManager.swift in Sources */,
+				9A97313A2A4AFCAA00FDFBC1 /* Cashbox.swift in Sources */,
+				9A9731342A4AFC9100FDFBC1 /* CardPaymentStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
